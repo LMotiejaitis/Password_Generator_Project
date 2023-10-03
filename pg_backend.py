@@ -102,12 +102,3 @@ class PasswordGeneratorApp(QMainWindow, Ui_PasswordGenerator):
 
     def clear_output(self):
         self.passwords_output.clear()
-
-""" def main():
-    app = QApplication(sys.argv)
-    window = PasswordGeneratorApp()
-    window.show()
-    sys.exit(app.exec())
-
-if __name__ == "__main__":
-    main() """
