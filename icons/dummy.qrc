@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>puzzle.png</file>
+    <file>trash.png</file>
+    <file>power-off.png</file>
+    <file>undo.png</file>
+    <file>hydro-power16.png</file>
+  </qresource>
+</RCC>
