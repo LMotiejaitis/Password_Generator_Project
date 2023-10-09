@@ -1,0 +1,21 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.1] - 2023-10-09
+
+### Added
+
+- Added a Security_Rating progress bar.
+- Updated backend logic to calculate security rating.
+- Moved unused/old files to PG Previous Versions folder.
+
+### Fixed
+
+- Amount slider minimum capped at 2 instead of 1 to prevent traceback.
+- Capped Length slider to 20.
