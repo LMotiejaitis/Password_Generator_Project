@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file allias="puzzles.png">puzzle.png</file>
+    <file allias="trashcan.png">trash.png</file>
+    <file allias="power.png">power-off.png</file>
+    <file allias="undoo.png">undo.png</file>
+    <file allias="power.png">hydro-power16.png</file>
+    <file allias="power_big.png">hydro-power.png</file>
+  </qresource>
+</RCC>

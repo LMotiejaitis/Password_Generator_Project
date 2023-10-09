@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QApplication
 import sys
-from pg_backend import PasswordGeneratorApp
+from pg_backend_v2 import PasswordGeneratorApp
 
 app = QApplication(sys.argv)
 
