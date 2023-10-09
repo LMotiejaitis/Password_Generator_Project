@@ -85,7 +85,6 @@ class PasswordGeneratorApp(QMainWindow, Ui_PasswordGenerator):
         passwords = self.generate_passwords_helper(num, lnth, characters)
         self.printing_passwords(passwords)
 
-        # Calculate security rating
         rating = self.calculate_security_rating(lnth, include_numbers, include_symbols, include_lowercase, include_uppercase)
         self.Security_rating.setValue(rating)
 
